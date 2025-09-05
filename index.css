@@ -1,0 +1,35 @@
+@import url(./variables.css);
+
+/* Example helpers (optional) */
+.bg-page {
+  background: var(--color-offwhite);
+}
+.text-body {
+  color: var(--color-steel);
+  font-family: var(--font-sans);
+}
+.text-title {
+  color: var(--color-charcoal);
+  font-family: var(--font-display);
+}
+.btn-primary {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.06s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.btn-primary:hover {
+  background: var(--btn-bg-hover);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+.badge-cta {
+  background: var(--color-accent);
+  color: var(--color-black);
+  border-radius: var(--radius-pill);
+  padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
